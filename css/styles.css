@@ -1,0 +1,64 @@
+body {
+    font-size: 16px;
+    width: 100vw;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.row {
+    margin: 0 auto;
+}
+
+.menu-item {
+    background-color: gray;
+    color: black;
+    margin-right: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.menu-item h3 {
+    margin-top: 0;
+}
+
+.menu-item p {
+    line-height: 1.5;
+}
+
+#nav-list li a {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+@media (min-width: 992px) {
+    .logo {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .menu-item {
+        width: 30%;
+        margin-right: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .row {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .logo {
+        font-size: 24px;
+    }
+
+    .menu-item {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+}
